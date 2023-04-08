@@ -1,6 +1,4 @@
-
-# Project 1: 
-# Execute SQL queries using different R libraries and benchmark them
+# Execute SQL queries using different R libraries, benchmarking them and plotting the results
 
 The aim of this project is to create and compare the performance of code that returns the exact same dataframes as SQL queries given below, using the following R libraries:
 - sqldf
