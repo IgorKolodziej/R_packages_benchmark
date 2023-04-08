@@ -27,16 +27,7 @@ https://ia600107.us.archive.org/27/items/stackexchange/readme.txt
 
 ## Queries
 ### Query 1
-```
-SELECT Location, SUM(UpVotes) as TotalUpVotes
-FROM Users
-WHERE Location != ''
-GROUP BY Location
-ORDER BY TotalUpVotes DESC
-LIMIT 10 
-```
-### Query 1
-```
+```SQL
 SELECT Location, SUM(UpVotes) as TotalUpVotes
 FROM Users
 WHERE Location != ''
@@ -45,7 +36,7 @@ ORDER BY TotalUpVotes DESC
 LIMIT 10 
 ```
 ### Query 2
-```
+```SQL
 SELECT STRFTIME('%Y', CreationDate) AS Year, STRFTIME('%m', CreationDate) AS Month,
 COUNT(*) AS PostsNumber, MAX(Score) AS MaxScore
 FROM Posts
@@ -54,7 +45,7 @@ GROUP BY Year, Month
 HAVING PostsNumber > 1000 
 ```
 ### Query 3
-```
+```SQL
 SELECT Id, DisplayName, TotalViews
 FROM (
     SELECT OwnerUserId, SUM(ViewCount) as TotalViews
@@ -68,7 +59,7 @@ ORDER BY TotalViews DESC
 LIMIT 10
 ```
 ### Query 4
-```
+```SQL
 SELECT DisplayName, QuestionsNumber, AnswersNumber, Location, Reputation, UpVotes, DownVotes
 FROM (
     SELECT *
@@ -93,8 +84,8 @@ FROM (
 JOIN Users
 ON PostsCounts.OwnerUserId = Users.Id
 ```
-### Query 1
-```
+### Query 5
+```SQL
 SELECT Title, CommentCount, ViewCount, CommentsTotalScore, DisplayName, Reputation, Location
 FROM (
     SELECT Posts.OwnerUserId, Posts.Title, Posts.CommentCount, Posts.ViewCount,
