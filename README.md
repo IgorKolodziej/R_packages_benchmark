@@ -5,6 +5,7 @@ The aim of this project is to create and compare the performance of code that re
 - base R
 - dplyr
 - data.table
+
 It was made for structured data processing course at my university and all credits for inventing these excercises go to my professor, Anna Cena, Ph. D.
 
 **Additionaly, I challanged myself to write dplyr and data.table functions with only one command.**
