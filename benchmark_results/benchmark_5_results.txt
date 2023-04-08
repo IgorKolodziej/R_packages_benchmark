@@ -1,0 +1,11 @@
+Unit: milliseconds
+                            expr       min        lq       mean    median
+   sql_5(Posts, Comments, Users) 2539.4692 2563.8359 2595.79349 2597.9298
+  base_5(Posts, Comments, Users) 1327.2082 1379.6706 1415.52617 1416.1065
+ dplyr_5(Posts, Comments, Users)  262.6758  305.4950  362.98723  336.2596
+ table_5(Posts, Comments, Users)   65.5595   66.4717   84.12848   69.1666
+        uq       max neval
+ 2613.3102 2750.6275    25
+ 1429.2866 1628.8630    25
+  391.8503  635.3087    25
+  119.6088  130.8335    25
