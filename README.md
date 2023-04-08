@@ -22,8 +22,9 @@ If you want to run the script, you need to unzip the data from and into the data
 - plots: plots showing benchmark results 
 
 ## Dataset
-https://archive.org/details/stackexchange
-https://ia600107.us.archive.org/27/items/stackexchange/readme.txt
+We are working with a trvel forum data from anonymized dump of all user-contributed content on the Stack Exchange network.
+- data: https://archive.org/details/stackexchange
+- data description: https://ia600107.us.archive.org/27/items/stackexchange/readme.txt
 
 ## Queries
 ### Query 1
