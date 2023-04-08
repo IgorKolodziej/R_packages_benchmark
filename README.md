@@ -5,10 +5,11 @@ The aim of this project is to create and compare the performance of code that re
 - base R
 - dplyr
 - data.table
+It was made for structured data processing course at my university and all credits for inventing these excercises go to my professor, Anna Cena, Ph. D.
 
 **Additionaly, I challanged myself to write dplyr and data.table functions with only one command.**
 
-**I also played around quite a bit with ggplot2 plotting library, definitely check it out!**
+**Furthermore, I decided to play around with ggplot2 plotting library to visualize the benchmark results, definitely check it out!**
 
 ## How to use
 If you want to run the script, you need to unzip the data from and into the data directory
